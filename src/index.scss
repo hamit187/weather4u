@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background: linear-gradient(to right, #242f3f, #00aeef, #242f3f);
+  // background-size: 400% 400%;
+  // animation: animate-background 10s infinite ease-in-out;
+  user-select: none;
+}
+
+@keyframes animate-background {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+}
+
+@font-face {
+  font-family: 'tactic-sans-bold';
+  src: local('tactic-sans-bold'), url('./fonts/tactic-sans-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'tactic-sans-regular';
+  src: local('tactic-sans-regular'), url('./fonts/tactic-sans-regular.ttf') format('truetype');
+}
+
+@media only screen and(max-width: 515px){
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and(max-width: 420px){
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and(max-width: 330px){
+  html {
+    font-size: 30%;
+  }
+}
+
+@media only screen and(min-width: 1500px){
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and(min-width: 2000px){
+  html {
+    font-size: 120%;
+  }
+}
