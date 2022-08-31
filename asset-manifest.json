@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/weather4u/static/css/main.d1b94b28.css",
+    "main.js": "/weather4u/static/js/main.73d10565.js",
+    "static/media/bg.jpg": "/weather4u/static/media/bg.46299733dde9b6a19344.jpg",
+    "static/media/tactic-sans-regular.ttf": "/weather4u/static/media/tactic-sans-regular.836b56cad78fc57e1953.ttf",
+    "static/media/tactic-sans-bold.ttf": "/weather4u/static/media/tactic-sans-bold.89eacbd6053d3c0d8e39.ttf",
+    "index.html": "/weather4u/index.html",
+    "main.d1b94b28.css.map": "/weather4u/static/css/main.d1b94b28.css.map",
+    "main.73d10565.js.map": "/weather4u/static/js/main.73d10565.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1b94b28.css",
+    "static/js/main.73d10565.js"
+  ]
+}
